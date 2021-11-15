@@ -1,0 +1,36 @@
+.logo{
+  padding-top: 40px;
+  margin-bottom: 25px;
+}
+
+.circular--square {
+  height: 225px;
+  width: 225px;
+   display: inline-block;
+/*  background-image: linear-gradient(45deg, #ffb34b, #fd8f1d, #f22f42); */
+   background: linear-gradient(45deg, rgba(255,194,0,1) 0%, rgba(255,170,0,1) 18%, rgba(255,147,0,1) 35%, rgba(255,134,16,1) 59%, rgba(201,68,22,1) 78%, rgba(255,0,0,1) 100%);
+  border: none;
+  border-radius: 50%;
+  border-color: #1919FF;
+  border-style: solid;
+  border-width: 1px;
+}
+
+@font-face
+{
+  font-family: 'space';
+  src: url('earthorbiter.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+#title{font-family: 'space';}
+
+.form-search{
+  margin-bottom: 15px;
+  border-color: blue;
+}
+
+.tete{
+  border-bottom: solid 1px;
+  border-bottom-color: #d7d7d7;
+}
